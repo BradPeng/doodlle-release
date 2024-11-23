@@ -1,0 +1,31 @@
+.like-icon {
+    color: gray;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .dislike-icon {
+    color: gray;
+    transition: color 0.3s ease;
+  }
+  
+  .selected-like {
+    color: green; /* Green for likes */
+  }
+  
+  .selected-dislike {
+    color: red; /* Red for dislikes */
+  }
+  
+  .like-icon:hover:not(.disabled-hover) {
+    color: lightgreen; /* Light up the like button on hover */
+  }
+  
+  .dislike-icon:hover:not(.disabled-hover) {
+    color: lightcoral; /* Light up the dislike button on hover */
+  }
+  
+  .not-allowed {
+    cursor: not-allowed;
+  }
+  

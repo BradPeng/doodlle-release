@@ -1,0 +1,8 @@
+.hint-box {
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+.spin {
+  transform: rotateY(360deg);
+}
